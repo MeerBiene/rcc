@@ -10,7 +10,7 @@
     <h1>Reverse CO2 Calculator</h1>
     <h4>Enter the amount of CO2 you saved and calculate the distance you could have travelled</h4>
     <br>
-    <input id="co2" type="text" placeholder="Amount of C02 (in kg)"/>
+    <input id="co2" type="text" placeholder="amount of co2"/>
     <select id="unit">
         <option>g</option>
         <option>kg</option>
@@ -45,10 +45,10 @@ Element.prototype.append = function(newText) {
 // source: https://www.statista.com/statistics/1185559/carbon-footprint-of-travel-per-kilometer-by-mode-of-transport/
 // accessed: 05.10.2022
 const means_of_transport = [
-    { co2: 150, name: "Flugzeug International" },
-    { co2: 255, name: "Flugzeug Inland"},
-    { co2: 192, name: "Auto Benzin"},
-    { co2: 171, name: "Auto Diesel"},
+    { co2: 150, name: "Plane - International" },
+    { co2: 255, name: "Plane - Domestic"},
+    { co2: 192, name: "Car - Petrol"},
+    { co2: 171, name: "Car - Diesel"},
     { co2: 105, name: "Bus"}
 ]
 
